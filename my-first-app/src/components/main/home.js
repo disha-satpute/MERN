@@ -3,14 +3,14 @@
 function home() {
     //JSX Syntax
     return (
+      <center>
             <div>
                
-                <ol>
-                  <li>Project Based Learning</li>
-                  <li>Real IT Engineering</li>
-                  <li>Employability Rigourse Hands-on Live Training</li>
-                  </ol>
+               
+                  <h2><b>Project Based Learning</b></h2>
+                 
             </div>
+            </center>
       
     );
   }

@@ -3,6 +3,7 @@
 function About() {
     //JSX Syntax
     return (
+      <center>
             <div>
                 <h2>About us</h2>
                 <hr/>
@@ -10,6 +11,7 @@ function About() {
                   <p>Doing ordinary things extra ordinarily</p>
                   <p>Mentor as a Service</p>
             </div>
+            </center>
     );
   }
   

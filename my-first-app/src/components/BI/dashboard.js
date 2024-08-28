@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 function Dashboard(){
 
 return(
+
    <div>
     <h6>
         Dashboard

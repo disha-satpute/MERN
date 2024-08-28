@@ -5,9 +5,10 @@ import { BrowserRouter as Router } from 'react-router-dom';
 
 function App() {
   return (
+    <center>
     <div>
       <h1>
-        Transflower Learning </h1>
+        Transflower Learning Pvt.Ltd </h1>
         <Router>
              <Navbar/>
                  <hr/>
@@ -15,6 +16,7 @@ function App() {
         </Router>
 
     </div>
+    </center>
   );
 }
 
