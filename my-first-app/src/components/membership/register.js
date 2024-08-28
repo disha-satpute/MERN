@@ -51,7 +51,7 @@ function Register() {
                 <tr>
                   <td> </td>
                   <td>
-                    <input class="button" type="submit" value="register" />
+                    <input class="button" type="submit" value="Register" />
                   </td>
                 </tr>
               </table>
