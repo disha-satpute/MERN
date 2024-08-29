@@ -28,12 +28,14 @@ Basic Example of React Router:
 Let's create a simple React application with three pages: Home, About, and Contact.
 
 1. Install React Router:
+
 First, you need to install react-router-dom:
 ```bash
 npm install react-router-dom
 ```
 
 2. Set Up Routing:
+
 Here's how you can set up routing in your React application:
 ```jsx
 import React from 'react';
@@ -55,11 +57,51 @@ function Contact() {
 }
 
 // App Component
+function App() {
+  return (
+    <Router>
+      <div>
+        {/* Navigation Links */}
+        <nav>
+              <Link to="/">Home</Link> |
+              <Link to="/about">About</Link> |
+              <Link to="/contact">Contact</Link> |
+        </nav>
 
+        {/* Route Definitions */}
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/contact" component={Contact} />
+        </Switch>
+      </div>
+    </Router>
+  );
+}
+
+export default App;
 ```
+Explanation:
 
-Here are the basic concepts in React:
+- <BrowserRouter> (aliased as <Router> in the example): Wraps the entire application, providing the routing context to all child components.
+- <Link>: Creates a navigation link. Clicking it changes the URL without reloading the page.
+- <Switch>: Ensures that only one route is rendered at a time by rendering the first matching route.
+- <Route>: Defines the path-to-component mapping. When the path matches the current URL, the specified component is rendered.
+- The exact prop in the home route (<Route path="/" exact component={Home} />) ensures that the Home component only renders when the path is exactly /. Without exact, /about would also match / because it starts with /.
 
+3. Usage:
+
+When you run this application:
+
+- Visiting http://localhost:3000/ will show the Home Page.
+- Visiting http://localhost:3000/about will show the About Page.
+- Visiting http://localhost:3000/contact will show the Contact Page.
+
+The links created with <Link> components allow users to navigate between these pages without triggering a full page reload.
+
+<hr/>
+
+Here are Some the basic concepts in React:
 
 ## Components :
 
