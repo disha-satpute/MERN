@@ -1,4 +1,4 @@
-# React -
+ # <p align="center">React</p>
 
 React is a popular JavaScript library for building user interfaces, especially single-page applications. It allows developers to create reusable UI components, efficiently updating and rendering them when data changes.
 
