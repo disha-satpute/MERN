@@ -51,3 +51,31 @@ export default App;
 Props are used to pass data from a parent component (App) to a child component (Welcome).
 <hr/>
 
+- State :
+
+State is a way to store and manage data that can change over time within a component. Unlike props, state is managed within the component and can be updated using setState or the useState hook.
+
+Example:
+
+```jsx
+
+import React, { useState } from 'react';
+
+function Counter() {
+  const [count, setCount] = useState(0);
+
+  return (
+    <div>
+      <p>You clicked {count} times</p>
+      <button onClick={() => setCount(count + 1)}>
+        Click me
+      </button>
+    </div>
+  );
+}
+
+export default Counter;
+```
+
+The useState hook manages the count state, which can be updated with setCount.
+<hr/>

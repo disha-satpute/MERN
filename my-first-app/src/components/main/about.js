@@ -5,7 +5,7 @@ function About() {
     return (
       <center>
             <div>
-        <Welcome name="Disha" />
+        <Welcome name="User" />
 
                 <h2>This is About us</h2>
                 <hr/>
@@ -21,5 +21,5 @@ function About() {
   function Welcome(props) {
     return <h1>Hello, {props.name}!</h1>;
   }
-  
+
   export default About;
