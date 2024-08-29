@@ -8,27 +8,20 @@ React Router is a popular library for handling routing in React applications. It
 
 - Key Concepts of React Router:
 
-<Routes>:
+Routes :
+Define the mapping between URL paths and the components that should be rendered when those paths are visited.
 
- Define the mapping between URL paths and the components that should be rendered when those paths are visited.
+BrowserRouter :
+A component that wraps your application and enables the use of the Router API. It keeps your UI in sync with the URL.
 
-<BrowserRouter>:
-
- A component that wraps your application and enables the use of the Router API. It keeps your UI in sync with the URL.
-
-<Route>: 
-
+Route : 
 A component that renders a specific component based on the URL path.
 
-<Link>: 
-
+Link : 
 A component used to create navigation links, allowing users to navigate between different routes without reloading the page.
 
-
-<Switch>: 
-
+Switch : 
 A component that renders the first matching <Route> from top to bottom. It ensures that only one route is rendered at a time.
-
 
 Basic Example of React Router:
 
