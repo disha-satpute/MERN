@@ -1,18 +1,14 @@
  
 //React Component
-function home() {
+function Home() {
     //JSX Syntax
     return (
       <center>
-            <div>
-               
-               
                   <h2><b>Project Based Learning</b></h2>
-                 
-            </div>
             </center>
-      
     );
   }
-  
-  export default home;
+
+
+  export default Home;
+
