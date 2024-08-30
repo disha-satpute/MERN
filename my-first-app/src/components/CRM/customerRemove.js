@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 function Remove(){
 
     const{id}=useParams();
-    const cst=CustomerService.remove(Number(id));
+    CustomerService.remove(Number(id));
 
     const navigator=useNavigate();
     const oncstClick=()=>{
@@ -16,14 +16,10 @@ function Remove(){
 
     return(
     <div>
-        <h5>Id :{id}</h5>
-<h5>This data will be deleted</h5>
-
-
-
-           <button onClick={oncstClick}>Back to Page</button>
-
- </div>
+        <h3>Id :{id}</h3>
+        <h3>This data will be deleted</h3>
+        <button onClick={oncstClick}>Back to Page</button>
+    </div>
     );
 }
 

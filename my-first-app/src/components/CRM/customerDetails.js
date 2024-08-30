@@ -11,13 +11,14 @@ const Details=()=>{
         navigator('/customer')
     }
     return (
+        
         <div>
             <h2>Customer Details</h2>
             <br/>
            <p>Name: {cst.name}</p>
            <p>City:{cst.city}</p>
-           <p>Email:{cst.email} Rs</p>
-           <p>Password:{cst.password}</p>
+           <p>Email:{cst.email}</p>
+           <p>Password:{cst.Password}</p>
 
 
            <button onClick={oncstClick}>Back to Page</button>

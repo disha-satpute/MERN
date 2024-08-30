@@ -29,7 +29,7 @@ update(id){
     return customer;
 },
 remove(id){
-    
+
     var removeperson=customers.filter((p)=>(p.id!==id));
     return removeperson;
 }
