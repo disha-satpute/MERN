@@ -7,10 +7,12 @@ import Register from "../components/membership/register";
 import Customer from "../components/CRM/customer";
 import Insert from "../components/CRM/customerInsert";
 import Update from "../components/CRM/customerUpdate";
+import Remove from "../components/CRM/customerRemove";
 import Dashboard from "../components/BI/dashboard";
 import Barchart from "../components/BI/barchart";
 import Linechart from "../components/BI/linechart";
 import Piechart from "../components/BI/piechart";
+import Details from "../components/CRM/customerDetails";
 
 
 var AppRoute=()=>(
@@ -26,7 +28,9 @@ var AppRoute=()=>(
 
         <Route path ="customer" element={<Customer/>}/>
         <Route path ="insert" element={<Insert/>}/>
-        <Route path="update" element={<Update/>}/>
+        <Route path ="details/:id" element={<Details/>}/>
+        <Route path="update/:id" element={<Update/>}/>
+        <Route path="Remove/:id" element={<Remove/>}/>
 
         <Route path ="dashboard" element ={<Dashboard/>}/>
             <Route path ="barchart" element ={<Barchart/>}></Route>

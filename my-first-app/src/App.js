@@ -6,7 +6,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 function App() {
   const name="Disha";
   return (
-    <center>
+   
     <div>
       <h1>Hello,{name}</h1>
 
@@ -18,7 +18,7 @@ function App() {
         </Router>
 
     </div>
-    </center>
+   
   );
 }
 
