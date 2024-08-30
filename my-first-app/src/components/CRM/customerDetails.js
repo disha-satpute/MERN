@@ -11,18 +11,19 @@ const Details=()=>{
         navigator('/customer')
     }
     return (
-        
-        <div>
+
+        <div style={{ textAlign: 'center' }}>
             <h2>Customer Details</h2>
-            <br/>
-           <p>Name: {cst.name}</p>
-           <p>City:{cst.city}</p>
-           <p>Email:{cst.email}</p>
-           <p>Password:{cst.Password}</p>
+            <p style={{ display: 'inline-block', textAlign: 'left',fontSize:'20px' }}>
+           <p>Name : {cst.name}</p>
+           <p>City : {cst.city}</p>
+           <p>Email : {cst.email}</p>
+           <p>Password : {cst.Password}</p>
 
-
+           </p>
+<br/>
            <button onClick={oncstClick}>Back to Page</button>
-    
+
         </div>
     );
 }

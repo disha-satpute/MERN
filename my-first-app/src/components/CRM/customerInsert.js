@@ -29,7 +29,7 @@ function Insert(){
                         <td><label>Password</label></td>
                         <td><input type="password" id="password" name="password"  /></td>
                     </tr>
-                    <tr>
+                    <tr><br/> <br/>
                         <td><button type="submit">Insert</button></td>
                     </tr>
                 </table>

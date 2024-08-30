@@ -5,10 +5,11 @@ function Dashboard(){
 return(
 <center>
    <div>
-    <h6>
+    <h4>
         Dashboard
-    </h6>
+    <p/>
     <Link to ="/Linechart">Line Chart</Link>   |     <Link to ="/Piechart">Pie Chart</Link>   |   <Link to ="/Barchart">Bar Chart</Link>
+    </h4>
    </div>
    </center>
 );
