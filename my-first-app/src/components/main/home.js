@@ -3,7 +3,7 @@
 function Home() {
     //JSX Syntax
     return (
-      <center>
+           <center>
                   <h2><b>Project Based Learning</b></h2>
             </center>
     );
