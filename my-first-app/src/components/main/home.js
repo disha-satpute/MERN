@@ -17,9 +17,7 @@ function Home() {
          console.log("multiplication: "+Multiplication);
          console.log("division: "+Division);
        }
-     
-     
-     
+
        const inventatoryManagement=()=>{
          let mgr= InventoryMgmt.getManager();
          let data=mgr.getAll();
