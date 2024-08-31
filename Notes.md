@@ -209,7 +209,7 @@ export default Timer;
 The useEffect hook is used to handle side effects, like setting up and cleaning up timers.
 
 
-## Virtual DOM : 
+## Virtual DOM :
 
 A lightweight copy of the actual DOM that React uses to optimize rendering. React updates the virtual DOM first and then compares it with the real DOM to determine the most efficient way to update the UI.
 
