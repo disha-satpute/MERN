@@ -16,9 +16,9 @@ return(
                          <li> {customer.name}   |  <Link to={`/Details/${customer.id}`}>Details</Link>|   <Link to={`/Update/${customer.id}`}>Update</Link>|   <Link to={`/remove/${customer.id}`}>Remove</Link></li>
                     ))
                  }
-            </ol> 
+            </ol>
             </div> </b>
-            
+
 </div>
 
 );
