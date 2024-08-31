@@ -23,9 +23,7 @@ function Home() {
          let data=mgr.getAll();
          console.log("Inventatary management Data: "+ JSON.stringify(data));
        }
-     
-     
-     
+
        const relationShipConcept=()=>{
          let line=new Line(10,20,"red",20);
          line.draw();
