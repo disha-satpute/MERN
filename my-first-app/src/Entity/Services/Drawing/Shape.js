@@ -12,4 +12,5 @@ class Shape{
         console.log("Thickness: "+this.thickness);
     }
 }
+
 export default Shape;
