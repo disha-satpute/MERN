@@ -4,15 +4,14 @@ import Line from "../../Entity/Services/Drawing/Line";
 
 //React Component
 function Home() {
-    //JSX Syntax
+
     const performOpertaion =()=>
        {
          let Additon=OOPConcept.Addition(10,20);
          let Subtraction = OOPConcept.Subtraction(30,20);
          let Multiplication = OOPConcept.Multiplication(5, 2);
          let Division = OOPConcept.Division(10, 2);
-     
-     
+
          console.log("Addition: "+Additon);
          console.log("Subtraction: "+Subtraction);
          console.log("multiplication: "+Multiplication);
