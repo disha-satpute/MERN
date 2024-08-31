@@ -1,17 +1,17 @@
 
-class InventatoryMgmt{
+class InventoryMgmt{
 
     constructor()
     {
         this.products = [
-           {id: 1, title: "naipaint", price: 30},
+           {id: 1, title: "nailpaint", price: 30},
           { id: 2, title: "Watch", price: 550}
         ]
     }
 
     static getManager()
     {
-        let mgr=new InventatoryMgmt();
+        let mgr=new InventoryMgmt();
         return mgr;
     }
     getAll()
@@ -39,4 +39,4 @@ class InventatoryMgmt{
         this.products.filter((p)=>(p.id!=id));
     }
 }
-export default InventatoryMgmt;
+export default InventoryMgmt;
