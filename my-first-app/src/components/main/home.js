@@ -40,7 +40,7 @@ function Home() {
                <h2>Welcome to our platform. this is our new project name as</h2>
                <b>
                  <i>
-                   <p>💰Net Banking Solution💰</p>
+                   <p>💰Project Based Learning💰</p>
                  </i>
                </b>
      
