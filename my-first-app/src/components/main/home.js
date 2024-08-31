@@ -32,13 +32,12 @@ function Home() {
          <div className="Home">
            <div class="body">
              <center>
-               <h2>Welcome to our platform. this is our new project name as</h2>
                <b>
-                 <i>
-                   <p>💰Project Based Learning💰</p>
-                 </i>
+                    <h2>
+                   Project Based Learning
+                   </h2>
                </b>
-     
+
                <button onClick={performOpertaion}>Invoke OOP concept</button>
                <button onClick={inventatoryManagement}>Invoke OOP concept</button>
                <button onClick={relationShipConcept}>Invoke RelationShip concept</button>
