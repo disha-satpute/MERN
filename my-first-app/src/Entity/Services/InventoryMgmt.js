@@ -21,7 +21,7 @@ class InventoryMgmt{
 
     getById(id)
     {
-        let product=this.products.find((p)=>(p.id==id));
+        let product=this.products.find((p)=>(p.id===id));
         return product;
     }
 
@@ -31,12 +31,12 @@ class InventoryMgmt{
     }
     update(product)
     {
-        this.products.filter((p)=>(p.id!=product.id));
+        this.products.filter((p)=>(p.id!==product.id));
         this.products.push(product);
     }
 
     delete(id){
-        this.products.filter((p)=>(p.id!=id));
+        this.products.filter((p)=>(p.id!==id));
     }
 }
 export default InventoryMgmt;
