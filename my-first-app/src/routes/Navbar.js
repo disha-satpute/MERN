@@ -10,7 +10,8 @@ const Navbar=()=>(
     <Link to="/login">Login</Link>      |
     <Link to ="/register">Register</Link>      |
      <Link to="/dashboard">Dashboard</Link>       |
-    <Link to="/customer">Customers</Link>
+    <Link to="/customer">Customers</Link> |
+    <Link to="/List">List</Link> 
 
     </nav>
     </center>

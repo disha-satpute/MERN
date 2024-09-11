@@ -17,6 +17,7 @@ import Barchart from "../components/BI/barchart";
 import Linechart from "../components/BI/linechart";
 import Piechart from "../components/BI/piechart";
 
+import List from "../catalog/list";
 
 
 var AppRoute=()=>(
@@ -41,6 +42,7 @@ var AppRoute=()=>(
             <Route path ="linechart" element ={<Linechart/>}></Route>
             <Route path ="piechart" element ={<Piechart/>}> </Route>
 
+       <Route path="List" element={<List/>}/>
     </Routes>
 
 );

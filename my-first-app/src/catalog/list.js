@@ -4,7 +4,7 @@ function List() {
     //JSX Syntax
     return (
             <div>
-                <h2>List pf Students</h2>
+                <h2>List of Students</h2>
                 <hr/>
                   <p>Disha Satpute</p>
                   <p>Kirti Kale</p>
