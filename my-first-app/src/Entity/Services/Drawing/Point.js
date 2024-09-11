@@ -5,7 +5,7 @@ class Point{
       this.y = y;
     }
   
-    static display(){
+     display(){
       console.log("x point: " + this.x);
       console.log("y point: " + this.x);
     }
