@@ -183,6 +183,7 @@ export default Counter;
 
 The useState hook manages the count state, which can be updated with setCount.
 
+
 ## Hooks : 
 
 Special functions in React (e.g., useState, useEffect) that allow you to use state and other React features in functional components. Hooks make it possible to manage component state and lifecycle without needing class components.
