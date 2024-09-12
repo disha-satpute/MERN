@@ -1,28 +1,33 @@
 import { useState } from "react";
-
-//Props: Sending value from parent component to child
-//Whenever state of  component is changes, react automatically renders component
-const Details=({like})=>{
-    //define state
-    const [count, setCount]=useState(like);
-
-    const increment=()=>{
-        setCount(count +1);
-        console.log(count);
-    }
-    const decrement=()=>{
-        setCount(count-1);
-        console.log(count);
-    }
+import Counter from "./Counter";
+ 
+ const Details=({title, description,unitprice,likes, image})=>{
+    const [name, setName]=useState(title);
+    const [info, setInfo]=useState(description)
+    const [price, setPrice]=useState(unitprice)
+    const [llikes, setLikes]=useState(likes);
+    const [img, setImage]=useState(image);
+ 
     return(
         <div>
-            <button onClick={decrement}>-</button>
-            <label>{count}</label>
-            <button onClick={increment}>+</button>
-
+            <table>
+                <tr>
+                    <td> <img src={img} width="200" height="200"/></td>
+                </tr>
+                    <tr>    
+                        <td>
+                        <div>
+                                <label>{name}</label> <br/>
+                                <label>{info}</label><br/>
+                                <label>${price}</label>
+                                <Counter likes={llikes}/>
+                        </div>
+                        </td>
+                </tr>
+            </table>
         </div>
     );
-
+ 
 };
  
 export default Details;
