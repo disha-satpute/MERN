@@ -5,7 +5,6 @@ import Details from './Details';
 
 function App() {
   var Title="Transflower";
-  var likes=5678;
 
   var products=[
     {id:12, title:"Phone", description:"Iphone 12",unitprice:56,likes:2345,imageurl:"/images/phone.jpg"},
