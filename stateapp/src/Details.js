@@ -7,14 +7,14 @@ import Counter from "./Counter";
     const [price, setPrice]=useState(unitprice)
     const [llikes, setLikes]=useState(likes);
     const [img, setImage]=useState(image);
- 
+
     return(
         <div>
-            <table>
+            <table border={2}>
                 <tr>
                     <td> <img src={img} width="200" height="200"/></td>
                 </tr>
-                    <tr>    
+                    <tr>
                         <td>
                         <div>
                                 <label>{name}</label> <br/>
