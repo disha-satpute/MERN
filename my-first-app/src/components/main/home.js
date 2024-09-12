@@ -12,8 +12,7 @@ function Home() {
       let Subtraction = OOPConcept.Subtraction(30,20);
       let Multiplication = OOPConcept.Multiplication(5, 2);
       let Division = OOPConcept.Division(10, 2);
-  
-  
+
       console.log("Addition: "+Additon);
       console.log("Subtraction: "+Subtraction);
       console.log("multiplication: "+Multiplication);
@@ -27,9 +26,7 @@ function Home() {
       let data=mgr.getAll();
       console.log("Inventatary management Data: "+ JSON.stringify(data));
     }
-  
-  
-  
+
     const relationShipConcept=()=>{
       let p1=new Point(10,20);
       let p2=new Point(30,40);
