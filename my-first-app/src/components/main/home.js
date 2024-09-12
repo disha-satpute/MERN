@@ -41,7 +41,7 @@ function Home() {
                    </h2>
                </b>
 
-               <button onClick={performOpertaion}>Invoke OOP concept</button>
+           <button onClick={performOpertaion}>Invoke OOP concept</button>
           <button onClick={inventatoryManagement}>Invoke OOP concept</button>
           <button onClick={relationShipConcept}>Invoke RelationShip concept</button>
              </center>
