@@ -1,13 +1,21 @@
-
 class Point{
-    constructor(x,y) {
-      this.x = x;
-      this.y = y;
-    }
-  
-     display(){
-      console.log("x point: " + this.x);
-      console.log("y point: " + this.x);
-    }
+  constructor(x,y) {
+    this.x = x;
+    this.y = y;
   }
-  export default Point;
+
+  static display(){
+    console.log("x point: " + this.x);
+    console.log("y point: " + this.x);
+  }
+
+   getX()
+  {
+    return this.x;
+  }
+
+   getY(){
+    return this.y;
+  }
+}
+export default Point;

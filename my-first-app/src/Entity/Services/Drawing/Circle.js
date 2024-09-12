@@ -1,4 +1,3 @@
-
 import Shape from "./Shape";
 class Circle extends Shape {
   constructor(p1, radius, color, thickness) {
