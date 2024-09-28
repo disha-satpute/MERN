@@ -27,7 +27,8 @@ import Counter from "./Counter";
             </table>
         </div>
     );
- 
+
+
 };
  
 export default Details;
