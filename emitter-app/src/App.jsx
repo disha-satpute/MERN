@@ -1,4 +1,4 @@
-import  { useState } from 'react'
+import  { useEffect, useState } from 'react'
 import EventEmitter from 'eventemitter3'
 
 const emitter=new EventEmitter();
@@ -25,12 +25,22 @@ function Publisher(){
 
 
 function Subscriber(){
+  const [data,setData]=useState('');
+
+  const handleUpdate=(newData) => {
+    setData(newData);
+  };
+useEffect(
+  ()=>{
+    emitter.on('update',handleUpdate);
+  }
+);
   return(
     <>
     <h3>
       Subscriber
     </h3>
-    <p>Data : </p>
+    <p>Data : {data} </p>
     </>
   );
 };
