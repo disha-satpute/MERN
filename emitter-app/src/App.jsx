@@ -27,13 +27,17 @@ function Publisher(){
 function Subscriber(){
   const [data,setData]=useState('');
 
-  const handleUpdate=(newData) => {
-    setData(newData);
-  };
+  
 useEffect(
   ()=>{
+    const handleUpdate=(newData) => {
+      setData(newData);
+    };
     emitter.on('update',handleUpdate);
-  }
+    return ()=>{
+      emitter.off('update',handleUpdate);
+    }
+  },[]
 );
   return(
     <>
