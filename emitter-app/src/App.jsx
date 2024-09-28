@@ -27,7 +27,6 @@ function Publisher(){
 function Subscriber(){
   const [data,setData]=useState('');
 
-  
 useEffect(
   ()=>{
     const handleUpdate=(newData) => {
